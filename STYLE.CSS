@@ -1,0 +1,19 @@
+function geraRecomendacao(idade, gostaDeFantasia) {
+    if(idade >= 10) {
+        if(idade >= 14) {
+            return "O menino que descobriu o vento";
+        } else {
+            if(gostaDeFantasia){
+                return "As aventuras de Pi";
+            } else {
+                return "Depois da chuva";
+            }
+        }
+    } else {
+        if(gostaDeFantasia) {
+            return "A viagem de Chihiro";
+        } else {
+            return "O feitiço do tempo";
+        }
+    }
+}
